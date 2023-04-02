@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_dialog"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/txt_amountDetails"
+        android:layout_width="40dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#797979" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="Apply Filter"
+            android:textColor="@color/grey"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/img_close"
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/btn_box_close" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_cmp_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/txt_bg"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:paddingStart="14dp"
+            android:paddingTop="6dp"
+            android:paddingEnd="14dp"
+            android:paddingBottom="6dp"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#E6E3FF">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@id/txt_clear"
+            android:background="#E6E3FF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/txt_bg"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="3dp"
+                android:text="Acc No : 1"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txt_brand_selection_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/txt_bg"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="3dp"
+                android:text="Brand : 9"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txt_location_selection_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/txt_bg"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingTop="3dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="3dp"
+                android:text="Location : 9"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="@string/txt_clear"
+            android:textColor="@color/grey"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="Select Account Number"
+            android:textColor="@color/grey"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"
+            android:drawablePadding="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_select_brands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="Select Brand"
+            android:textColor="@color/grey"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_selected_brandcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"
+            android:drawablePadding="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_select_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="Select Locations"
+            android:textColor="@color/grey"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_selectedlocationcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:drawableEnd="@drawable/baseline_arrow_forward_ios_24"
+            android:drawablePadding="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_apply"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:paddingStart="14dp"
+        android:paddingTop="6dp"
+        android:paddingEnd="14dp"
+        android:paddingBottom="6dp"
+        android:text="Apply"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>
